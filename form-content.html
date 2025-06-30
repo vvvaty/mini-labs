@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clothing Selector</title>
+  
+  <!-- css import -->
+  <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class='wrapper'>
+    <!--section for all objects-->
+    <div class='container'>
+        <!--scroll down selection gender and type-->
+        <div class='selectbox'>
+        <select id='gender'>
+            <option value='male'>Man's</option>
+            <option value='female'>Woman's</option>
+        </select>
+        <select id='type'>
+            <option value='coat'>Coat</option>
+            <option value='top'>Top</option>
+            <option value='button'>Botton</option>
+        </select>
+        </div>
+        <div class='info_box'>
+        <input id="name" type='text'/>
+        <button onclick="buyFunction()"> Buy </button>
+        <button onclick="knowFunction()"> Know more </button>
+        </div>
+
+        <div class='order_info'>
+            <h4>Your Order</h4>
+            <p id='your_name'>Your Name:</p>
+            <p id='clo_sort'>Catergory:</p>
+            <p id='clo_type'>Type:</p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- JS import -->
+    <script src="interaction.js"></script>
+</body>
+</html>

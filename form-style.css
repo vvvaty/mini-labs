@@ -1,0 +1,60 @@
+.wrapper{
+  display: flex;
+  align-items: center; /*its a parent between 2 attributes, cannot apply on itself*/
+  justify-content: center; /*relevant position*/
+  min-height: 100vh; /*page high first, then have revlevant center position/
+  background-color: beige;
+}
+.container{
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  box-shadow: 0px 0px 50px -5px rgb(128, 128, 128, 0.3);
+  background-color: rgb(254, 254, 254);
+}
+.selectbox{ /* not sure why not working*/
+  margin-bottom: 10px;
+}
+.selectbox select{
+  border-radius: 20px;
+  padding: 3px 5px;
+  background-color: rgba(234, 234, 230, 0.685);
+  border: none;
+}
+button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(255, 254, 233);
+  color: rgb(37, 40, 68);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button:hover {
+  background-color: rgb(37, 40, 68);
+  color: rgb(255, 254, 233);
+}
+
+input {
+  padding: 6px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgb(37, 40, 68);
+  color: grey;
+}
+
+.order_info{
+  background-color: rgb(37, 40, 68);
+  color: rgb(255, 254, 233);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 50px 30px;
+  margin: 20px 30px 0px;
+  border-radius: 20px;
+}
+.order_info h4{
+  text-align: center;
+}
